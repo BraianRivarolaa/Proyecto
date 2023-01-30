@@ -292,7 +292,6 @@ img {
 }
 
 .contacto__button {
-  display: block;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
@@ -326,44 +325,6 @@ img {
   background-color: rgb(216, 216, 216);
   color: rgb(0, 0, 0);
   transition: ease-in .5s;
-}
-
-/* foter*/
-.footer {
-  background-color: var(--first-color);
-  color: #fff;
-  text-align: center;
-  font-weight: var(--font-semi);
-  padding: 2rem 0;
-}
-
-.footer__titulo {
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
-}
-
-.footer__social {
-  margin-bottom: var(--mb-4);
-}
-
-.footer__icon {
-  font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2);
-}
-
-.fin {
-  font-size: var(--smaller-font-size);
-}
-
-/* media*/
-@media screen and (max-width: 320px) {
-  .home {
-    row-gap: 2rem;
-  }
-  .home__img {
-    width: 200px;
-  }
 }
 
 @media screen and (min-width: 576px) {
